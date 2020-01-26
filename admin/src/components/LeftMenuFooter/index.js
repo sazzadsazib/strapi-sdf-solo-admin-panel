@@ -18,12 +18,12 @@ function LeftMenuFooter({ version, ...rest }) {
     {
       icon: 'book',
       label: 'documentation',
-      destination: 'https://strapi.io/documentation',
+      destination: 'http://sdfbd.org',
     },
     {
       icon: 'question-circle',
       label: 'help',
-      destination: 'https://strapi.io/help',
+      destination: 'https://github.com/sazzadsazib',
     },
   ];
 
@@ -43,20 +43,11 @@ function LeftMenuFooter({ version, ...rest }) {
         <FormattedMessage {...messages.poweredBy} key="poweredBy" />
         <a
           key="website"
-          href="https://strapi.io"
+          href="http://xgensystems.us/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Strapi
-        </a>
-        &nbsp;
-        <a
-          href={`https://github.com/strapi/strapi/releases/tag/v${version}`}
-          key="github"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          v{version}
+          X-Gen
         </a>
       </div>
     </Wrapper>
