@@ -59,8 +59,8 @@ const SOCIAL_LINKS = [
     link: 'https://www.reddit.com/r/Strapi/',
   },
   {
-    name: 'Stack Overflow',
-    link: 'https://stackoverflow.com/questions/tagged/strapi',
+    name: 'Facebook',
+    link: 'https://facebook.com/sdfbd',
   },
 ];
 
@@ -145,19 +145,6 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
                     );
                   }}
                 </FormattedMessage>
-              )}
-              {hasAlreadyCreatedContentTypes && (
-                <div style={{ marginTop: isLoading ? 60 : 50 }}>
-                  {posts.map((post, index) => (
-                    <BlogPost
-                      {...post}
-                      key={post.link}
-                      isFirst={index === 0}
-                      isLoading={isLoading}
-                      error={error}
-                    />
-                  ))}
-                </div>
               )}
               <FormattedMessage id={linkProps.id}>
                 {msg => (

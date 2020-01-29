@@ -12,6 +12,7 @@ import Medium from '../../assets/images/social_medium.png';
 import So from '../../assets/images/social_so.png';
 import Twitter from '../../assets/images/social_twitter.png';
 import Reddit from '../../assets/images/social_reddit.png';
+import Facebook from '../../assets/images/social_facebook.png';
 
 import { SocialLinkWrapper } from './components';
 
@@ -29,6 +30,8 @@ function getSrc(name) {
       return So;
     case 'Twitter':
       return Twitter;
+    case 'Facebook':
+      return Facebook;
     default:
       return Gh;
   }
