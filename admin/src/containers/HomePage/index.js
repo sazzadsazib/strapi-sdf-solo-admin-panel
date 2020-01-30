@@ -26,12 +26,12 @@ import SocialLink from './SocialLink';
 const FIRST_BLOCK_LINKS = [
   {
     link:
-      'https://strapi.io/documentation/3.0.0-beta.x/getting-started/quick-start.html#_4-create-a-new-content-type',
+      'https://sdfbd.org',
     contentId: 'app.components.BlockLink.documentation.content',
     titleId: 'app.components.BlockLink.documentation',
   },
   {
-    link: 'https://github.com/strapi/foodadvisor',
+    link: 'https://github.com/sazzadsazib',
     contentId: 'app.components.BlockLink.code.content',
     titleId: 'app.components.BlockLink.code',
   },
@@ -39,24 +39,8 @@ const FIRST_BLOCK_LINKS = [
 
 const SOCIAL_LINKS = [
   {
-    name: 'GitHub',
-    link: 'https://github.com/strapi/strapi/',
-  },
-  {
-    name: 'Slack',
-    link: 'https://slack.strapi.io/',
-  },
-  {
-    name: 'Medium',
-    link: 'https://medium.com/@strapi',
-  },
-  {
     name: 'Twitter',
-    link: 'https://twitter.com/strapijs',
-  },
-  {
-    name: 'Reddit',
-    link: 'https://www.reddit.com/r/Strapi/',
+    link: 'https://twitter.com/sdfbd',
   },
   {
     name: 'Facebook',
@@ -87,7 +71,7 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
   const linkProps = hasAlreadyCreatedContentTypes
     ? {
         id: 'app.components.HomePage.button.blog',
-        href: 'https://blog.strapi.io/',
+        href: 'https://sdfbd.org',
         onClick: () => {},
         type: 'blog',
         target: '_blank',
@@ -196,7 +180,7 @@ const HomePage = ({ global: { plugins }, history: { push } }) => {
                 {msg => (
                   <ALink
                     rel="noopener noreferrer"
-                    href="https://portal.productboard.com/strapi/1-public-roadmap/tabs/2-under-consideration"
+                    href="http://xgensystems.us/"
                     target="_blank"
                   >
                     {msg}
